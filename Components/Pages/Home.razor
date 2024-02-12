@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<EditForm Model="InputModel">
+    <OuterEditor @bind-Value="InputModel" />
+</EditForm>
+
+@code{
+
+    OuterInputModel InputModel { get; set; } = new();
+
+    
+
+}
